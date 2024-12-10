@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
   overflow-x: hidden; /* Pure body par */
+
 }
 
 h1,
@@ -30,33 +31,45 @@ section {
   margin-bottom: 30px;
 }
 
-/* .button1 a {
-  border-radius: 4px;
-  background: #38dce2;
-  padding: 12px 24px;
-  color: #000;
-  text-transform: capitalize;
-  text-decoration: none;
-  font-family: "poppins", sans-serif;
-} */
 
 section.workflow-section {
   position: relative;
-  background: #701084;
+  background: #f00072;
 }
 
-.banner-content .subheading {
+ .subheading {
   color: #fff;
   text-align: center;
   font-family: "poppins", sans-serif;
   font-size: 20px;
+}
+.subheading:before {
+    content: '';
+    position: absolute;
+    top: 105px;
+    width: 2px;
+    background: #fff;
+    height: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.subheading:after {
+    content: '';
+    position: absolute;
+    top: 148px;
+    width: 10px;
+    background: #fff;
+    height: 10px;
+    left: 50%;
+    border-radius: 50%;
+    transform: translateX(-50%);
 }
 .workflow-section .title {
   color: #fff;
   margin-bottom: 15px;
   font-family: "Poppins";
   font-weight: 700;
-  font-size: 60px;
+  font-size: 52px;
   text-align: center;
 }
 
@@ -68,7 +81,7 @@ section.workflow-section {
 }
 .workflow-section .title {
   color: #fff;
-  margin-bottom: 15px;
+  margin-top: 57px;
 }
 .workflow-div {
   position: relative;

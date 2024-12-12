@@ -245,7 +245,7 @@ section.workflow-section {
 }
 
 .workflow-title1 {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .workflow-title1 h3 {
   font-size: 18px;
@@ -254,8 +254,6 @@ section.workflow-section {
   font-weight: 700;
   color: #fff;
 }
-
-
 
 .workflowheader-number2 p {
   position: absolute;
@@ -301,70 +299,68 @@ section.workflow-section {
   background-size: contain;
 }
 
-.workflowbox1image img{
-    width:100px
+.workflowbox1image img {
+  width: 100px;
 }
 
 .workimg-wrapper {
-    position: relative;
-    z-index: 2;
-    width: 100%;
-  }
-  
-  .workimg-wrapper:before {
-    content: "";
-    position: absolute;
-    left: 49.8%;
-    top: 58%;
-    width: 67.5%;
-    height: 100px;
-    transform: translate(-50%, -50%);
-    background: url(../images/workflow/workflow-seperator.webp) no-repeat;
-    background-size: contain;
-  }
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
 
-  .workimg-centerdiv {
-    display: flex;
-    width: 100%;
-    margin: auto;
-    justify-content: center;
+.workimg-wrapper:before {
+  content: "";
+  position: absolute;
+  left: 49.8%;
+  top: 58%;
+  width: 67.5%;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  background: url(../images/workflow/workflow-seperator.webp) no-repeat;
+  background-size: contain;
+}
+
+.workimg-centerdiv {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
 }
 .workimg-div {
-    position: relative;
-    width: 70px;
-    height: 70px;
-    border-radius: 100px;
-    margin-right: 84px;
-    z-index: 2;
-    background: #fff;
-    justify-content: center;
-    align-items: center;
-    display: flex
-;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  margin-right: 84px;
+  z-index: 2;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 .workimg-div img {
-    width: 40px;
-    max-width: 40px;
-    height: 40px;
-  
+  width: 40px;
+  max-width: 40px;
+  height: 40px;
 }
 
 .workimg-div:nth-child(1) {
-    transform: translate(22px,1px); 
+  transform: translate(22px, 1px);
 }
-  
-  .workimg-div:nth-child(2) {
-    transform: translateX(31px); 
-  }
-  
-  .workimg-div:nth-child(3) {
-    transform: translateX(43px); 
-  }
-  
-  .workimg-div:nth-child(4) {
-    transform: translateX(51px); 
-  }
-  
-  .workimg-div:nth-child(5) {
-    transform: translatex(62px);
-  }
+
+.workimg-div:nth-child(2) {
+  transform: translateX(31px);
+}
+
+.workimg-div:nth-child(3) {
+  transform: translateX(43px);
+}
+
+.workimg-div:nth-child(4) {
+  transform: translateX(51px);
+}
+
+.workimg-div:nth-child(5) {
+  transform: translatex(62px);
+}

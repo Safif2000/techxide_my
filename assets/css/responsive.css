@@ -93,6 +93,7 @@
         display: none;
     }
 
+
 }
 
 @media(max-width:430px)
@@ -112,6 +113,58 @@
 {
     .workimg-wrapper{
         display: none;
+    }
+    .workflowcolumn1 {
+        position: relative;
+        display: flex
+    ;
+        flex-direction: column;
+        height: 100%;
+    }
+    .workflowcolumn1:before {
+        content: "";
+        position: absolute;
+        right: 49%;
+        top: -5px;
+        width: 2px;
+        height: 28px;
+        background: #fff;
+        transform: translate(-50%, 0);
+    }
+
+    .workflowinner-card {
+        position: relative;
+        display: flex
+    ;
+        flex-direction: column;
+        height: 87%;
+        padding: 0 10px 20px 10px;
+        border-radius: 10px;
+        display: flex
+    ;
+        flex-direction: column;
+        height: 100%;
+    }
+    .workflowinner-card:before {
+        content: "";
+        position: absolute;
+        left: -7px;
+        bottom: -20px;
+        width: 100px;
+        height: 7px;
+        border-bottom: 2px solid #fff;
+        border-bottom-left-radius: 10px;
+        mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 50%, #fff);
+    }
+    .workflowinner-card:after {
+        content: "";
+        position: absolute;
+        right: -8px;
+        bottom: -20px;
+        height: 7px;
+        width: 129px;
+        border-bottom: 2px solid #fff;
+        border-bottom-right-radius: 10px;
     }
 } 
  
